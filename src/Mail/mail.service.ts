@@ -8,8 +8,8 @@ class Mail {
     public initMail(message: string, name: string, company: string, phone: string, mail: string) {
         let bodyMail = mailBody.createBodyHTML(message, name, company, phone, mail)
         return {
-            from: "gustavosocial1032@gmail.com",
-            to: "gustavosocial1032@gmail.com",
+            from: sender_mail,
+            to: other_mail,
             subject: "Teste",
             html: bodyMail
         }
