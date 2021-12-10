@@ -10,7 +10,7 @@ class Mail {
         return {
             from: sender_mail,
             to: other_mail,
-            subject: "Teste",
+            subject: your_subject,
             html: bodyMail
         }
     }
